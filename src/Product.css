@@ -6,6 +6,8 @@
     margin: 0 auto;
     flex-wrap: wrap;
     height: fit-content;
+
+    justify-content: center;
 }
 
 

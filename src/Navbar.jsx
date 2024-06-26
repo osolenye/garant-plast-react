@@ -9,13 +9,10 @@ function Navbar() {
             </div>
             <ul className="navbar-menu">
                 <li>
-                    <a href="#home">Главная</a>
-                </li>
-                <li>
                     <a href="#about">О нас</a>
                 </li>
                 <li>
-                    <a href="#services">Услуги</a>
+                    <a href="#products">Цены</a>
                 </li>
                 <li>
                     <a href="#contact">Контакты</a>
