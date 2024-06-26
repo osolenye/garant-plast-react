@@ -1,0 +1,46 @@
+.products-container {
+    display: flex;
+    gap: 20px;
+
+    width: 85%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    height: fit-content;
+}
+
+
+.product {
+    position: relative;
+    width: 250px;
+    height: 410px;
+    background-color: #a09fa1;
+    border-radius: 8px;
+
+    text-align: center;
+}
+
+.product p {
+    color: black;
+}
+
+.product-img {
+    width: 250px;
+    height: 300px;
+}
+
+.product-name {
+    margin-top: 10px;
+}
+
+.product-chosen {
+    position: relative;
+    width: 250px;
+    height: 455px;
+    background-color: #a09fa1;
+    border-radius: 8px;
+
+    text-align: center;
+
+
+      box-shadow: 0 0 5px 5px rgba(54, 190, 185, 0.5); /* Параметры тени */
+}
