@@ -4,6 +4,7 @@ import Navbar from './Navbar.jsx';
 import Product from './Product.jsx';
 import data from "./data";
 import About from "./About.jsx";
+import Contact from "./Contact.jsx";
 
 import windowLogo from "./assets/window.webp";
 import "./Product.css";
@@ -57,6 +58,7 @@ function App() {
       <div className='products-container' id='products'>
         {allElements}
       </div>
+      <Contact />
     </>
   );
 }
